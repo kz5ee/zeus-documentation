@@ -1,11 +1,7 @@
 # Overview
 The goal of this project is to create a scalable, modular weather station
 
-- Power
-	- Solar
-	- Wind
-	- Battery
-- Telemetry
+- Core
 	- Wind
 		- Direction
 		- Speed
@@ -21,10 +17,25 @@ The goal of this project is to create a scalable, modular weather station
 			- Units: in/hr
 		- Amount
 			- Units: in
+	- Communication
+		- Wifi
+		- Bluetooth
+		- Service UART port
 - Modules
+	- Power
+		- Interface
+			- USB-C for power delivery only
+		- Solar
+		- Wind
+		- Battery
+		- Combination solar/wind/battery
 	- APRS
 		- For reporting weather station telemetry to APRS network
 	- LoRA
 		- For reporting telemetry within weather station cluster
+- User interface
+	- Web dashboard
+	- Mobile app
+	- Desktop app
 
 
