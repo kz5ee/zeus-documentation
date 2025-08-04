@@ -5,7 +5,7 @@ The goal of this project is to create a scalable, modular weather station
 	- Wind
 		- Direction
 		- Speed
-			- Max 120mph
+			- Max 200mph
 	- Temperature
 		- Range: -40°F - 150°F
 	- Humidity
@@ -39,5 +39,4 @@ The goal of this project is to create a scalable, modular weather station
 	- Web dashboard
 	- Mobile app
 	- Desktop app
-
 
