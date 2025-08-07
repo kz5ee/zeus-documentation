@@ -20,3 +20,16 @@ NB-IoT (also known as Cat-NB1) is a narrowband technology standard that does not
 NB-IoT is perfect for static, low throughput applications requiring low power and long-range, like smart metering, smart agriculture and smart city applications. It also provides better penetration in, for example, cellars and parking garages compared to LTE-M.
 ```
 
+## Comparisons
+```
+                                LTE-M                                   NB-IoT
+Also known as 	                “eMTC”,”LTE Cat-M1” 	                “LTE Cat-NB1” (3GPP rel 13)
+                                                                        "LTE Cat-NB2" (3GPP rel 14)
+Max Throughput ( DL/UL )        300/375 kbps    	                    30/60 kbps (NB1) - 127/169 kbps (NB2)
+Range                           Up to 4x 	                            Up to 7x
+Mobility/cell re-selection 	    Yes 	                                Limited
+Frequency deployment 	        LTE In-band 	                        LTE In-band, guard band and GSM re-purposing
+Deployment density 	            Up to 50,000 per cell 	                Up to 50,000 per cell
+Module size 	                Suitable for wearables 	                Suitable for wearables
+Power consumption 	            Up to 10 years of battery lifetime 	    Up to 10 years of battery lifetime
+```
