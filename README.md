@@ -36,10 +36,11 @@ The goal of this project is to create a scalable, modular weather station
 	- Cellular
 		- For reporting telemetry to API over cellular data connection
 - User interface
- - Web dashboard (and/or)
-  - Self-hosted
-  - Cloud
-	- Mobile app
-	- Desktop app
+  - Web dashboard (and/or)
+    - Self-hosted
+      - Can be used simultaneously with cloud
+    - Cloud
+  - Mobile app
+  - Desktop app
 
 
